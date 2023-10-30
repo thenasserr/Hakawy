@@ -7,19 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C84D741A5FAB89FC488E3637 /* Pods_Hakawy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B28AE9EE7CD671A87E9D43A7 /* Pods_Hakawy.framework */; };
+		D667136F2AEAF84300952BF9 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667136E2AEAF84300952BF9 /* User.swift */; };
+		D66713732AEAFAC700952BF9 /* FirebaseCollectionRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66713722AEAFAC700952BF9 /* FirebaseCollectionRef.swift */; };
+		D66713752AEAFFE500952BF9 /* FirebaseUserListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66713742AEAFFE500952BF9 /* FirebaseUserListener.swift */; };
+		D66713772AEB05FC00952BF9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66713762AEB05FC00952BF9 /* Constants.swift */; };
+		D667137A2AEC7FE900952BF9 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66713792AEC7FE900952BF9 /* SettingsTableViewController.swift */; };
+		D667137E2AEF22B400952BF9 /* EditProfileTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D667137D2AEF22B400952BF9 /* EditProfileTableViewController.swift */; };
+		D695CBC62AE98EDA007FB49E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D695CBC52AE98EDA007FB49E /* GoogleService-Info.plist */; };
 		D699015C2AE987DB00F3C29B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699015B2AE987DB00F3C29B /* AppDelegate.swift */; };
 		D699015E2AE987DB00F3C29B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699015D2AE987DB00F3C29B /* SceneDelegate.swift */; };
-		D69901602AE987DB00F3C29B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699015F2AE987DB00F3C29B /* ViewController.swift */; };
+		D69901602AE987DB00F3C29B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D699015F2AE987DB00F3C29B /* LoginViewController.swift */; };
 		D69901632AE987DB00F3C29B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69901612AE987DB00F3C29B /* Main.storyboard */; };
 		D69901652AE987DC00F3C29B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D69901642AE987DC00F3C29B /* Assets.xcassets */; };
 		D69901682AE987DC00F3C29B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D69901662AE987DC00F3C29B /* LaunchScreen.storyboard */; };
+		D69901712AE9888200F3C29B /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = D69901702AE9888200F3C29B /* FirebaseAnalytics */; };
+		D69901732AE9888200F3C29B /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = D69901722AE9888200F3C29B /* FirebaseAuth */; };
+		D69901752AE9888200F3C29B /* FirebaseCrashlytics in Frameworks */ = {isa = PBXBuildFile; productRef = D69901742AE9888200F3C29B /* FirebaseCrashlytics */; };
+		D69901772AE9888200F3C29B /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = D69901762AE9888200F3C29B /* FirebaseDatabase */; };
+		D69901792AE9888200F3C29B /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = D69901782AE9888200F3C29B /* FirebaseFirestore */; };
+		D699017B2AE9888200F3C29B /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = D699017A2AE9888200F3C29B /* FirebaseFirestoreSwift */; };
+		D699017D2AE9888200F3C29B /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = D699017C2AE9888200F3C29B /* FirebaseMessaging */; };
+		D699017F2AE9888200F3C29B /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = D699017E2AE9888200F3C29B /* FirebaseStorage */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0168DE921C7632F90D7AEDF4 /* Pods-Hakawy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hakawy.debug.xcconfig"; path = "Target Support Files/Pods-Hakawy/Pods-Hakawy.debug.xcconfig"; sourceTree = "<group>"; };
+		51AB77106826991BE7BE593A /* Pods-Hakawy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hakawy.release.xcconfig"; path = "Target Support Files/Pods-Hakawy/Pods-Hakawy.release.xcconfig"; sourceTree = "<group>"; };
+		B28AE9EE7CD671A87E9D43A7 /* Pods_Hakawy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hakawy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D667136E2AEAF84300952BF9 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		D66713722AEAFAC700952BF9 /* FirebaseCollectionRef.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseCollectionRef.swift; sourceTree = "<group>"; };
+		D66713742AEAFFE500952BF9 /* FirebaseUserListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseUserListener.swift; sourceTree = "<group>"; };
+		D66713762AEB05FC00952BF9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D66713792AEC7FE900952BF9 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
+		D667137D2AEF22B400952BF9 /* EditProfileTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileTableViewController.swift; sourceTree = "<group>"; };
+		D695CBC52AE98EDA007FB49E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		D69901582AE987DB00F3C29B /* Hakawy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hakawy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D699015B2AE987DB00F3C29B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D699015D2AE987DB00F3C29B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D699015F2AE987DB00F3C29B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D699015F2AE987DB00F3C29B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		D69901622AE987DB00F3C29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D69901642AE987DC00F3C29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D69901672AE987DC00F3C29B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -31,17 +57,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D69901752AE9888200F3C29B /* FirebaseCrashlytics in Frameworks */,
+				D69901712AE9888200F3C29B /* FirebaseAnalytics in Frameworks */,
+				D699017D2AE9888200F3C29B /* FirebaseMessaging in Frameworks */,
+				D69901772AE9888200F3C29B /* FirebaseDatabase in Frameworks */,
+				D69901792AE9888200F3C29B /* FirebaseFirestore in Frameworks */,
+				D699017F2AE9888200F3C29B /* FirebaseStorage in Frameworks */,
+				D69901732AE9888200F3C29B /* FirebaseAuth in Frameworks */,
+				D699017B2AE9888200F3C29B /* FirebaseFirestoreSwift in Frameworks */,
+				C84D741A5FAB89FC488E3637 /* Pods_Hakawy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E19FBED837B1F71F2B3D755 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B28AE9EE7CD671A87E9D43A7 /* Pods_Hakawy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C017E1FE62F7C0112A9E962 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0168DE921C7632F90D7AEDF4 /* Pods-Hakawy.debug.xcconfig */,
+				51AB77106826991BE7BE593A /* Pods-Hakawy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D667136D2AEAF83500952BF9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D667136E2AEAF84300952BF9 /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D66713702AEAF8A700952BF9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D699015F2AE987DB00F3C29B /* LoginViewController.swift */,
+				D66713792AEC7FE900952BF9 /* SettingsTableViewController.swift */,
+				D667137D2AEF22B400952BF9 /* EditProfileTableViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D66713712AEAF8B300952BF9 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D69901612AE987DB00F3C29B /* Main.storyboard */,
+				D69901662AE987DC00F3C29B /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D66713782AEBFFD600952BF9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D699015B2AE987DB00F3C29B /* AppDelegate.swift */,
+				D699015D2AE987DB00F3C29B /* SceneDelegate.swift */,
+				D69901642AE987DC00F3C29B /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D667137B2AEC861D00952BF9 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				D66713722AEAFAC700952BF9 /* FirebaseCollectionRef.swift */,
+				D66713742AEAFFE500952BF9 /* FirebaseUserListener.swift */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		D667137C2AEC862900952BF9 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D66713762AEB05FC00952BF9 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D699014F2AE987DB00F3C29B = {
 			isa = PBXGroup;
 			children = (
 				D699015A2AE987DB00F3C29B /* Hakawy */,
 				D69901592AE987DB00F3C29B /* Products */,
+				4C017E1FE62F7C0112A9E962 /* Pods */,
+				1E19FBED837B1F71F2B3D755 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,13 +164,14 @@
 		D699015A2AE987DB00F3C29B /* Hakawy */ = {
 			isa = PBXGroup;
 			children = (
-				D699015B2AE987DB00F3C29B /* AppDelegate.swift */,
-				D699015D2AE987DB00F3C29B /* SceneDelegate.swift */,
-				D699015F2AE987DB00F3C29B /* ViewController.swift */,
-				D69901612AE987DB00F3C29B /* Main.storyboard */,
-				D69901642AE987DC00F3C29B /* Assets.xcassets */,
-				D69901662AE987DC00F3C29B /* LaunchScreen.storyboard */,
+				D667137C2AEC862900952BF9 /* Helpers */,
+				D667137B2AEC861D00952BF9 /* Firebase */,
+				D66713782AEBFFD600952BF9 /* Resources */,
+				D667136D2AEAF83500952BF9 /* Model */,
+				D66713712AEAF8B300952BF9 /* View */,
+				D66713702AEAF8A700952BF9 /* Controllers */,
 				D69901692AE987DC00F3C29B /* Info.plist */,
+				D695CBC52AE98EDA007FB49E /* GoogleService-Info.plist */,
 			);
 			path = Hakawy;
 			sourceTree = "<group>";
@@ -74,15 +183,27 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D699016C2AE987DC00F3C29B /* Build configuration list for PBXNativeTarget "Hakawy" */;
 			buildPhases = (
+				AD611821145BC221663311B5 /* [CP] Check Pods Manifest.lock */,
 				D69901542AE987DB00F3C29B /* Sources */,
 				D69901552AE987DB00F3C29B /* Frameworks */,
 				D69901562AE987DB00F3C29B /* Resources */,
+				637AEEA3D3A58AB59384E4DA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = Hakawy;
+			packageProductDependencies = (
+				D69901702AE9888200F3C29B /* FirebaseAnalytics */,
+				D69901722AE9888200F3C29B /* FirebaseAuth */,
+				D69901742AE9888200F3C29B /* FirebaseCrashlytics */,
+				D69901762AE9888200F3C29B /* FirebaseDatabase */,
+				D69901782AE9888200F3C29B /* FirebaseFirestore */,
+				D699017A2AE9888200F3C29B /* FirebaseFirestoreSwift */,
+				D699017C2AE9888200F3C29B /* FirebaseMessaging */,
+				D699017E2AE9888200F3C29B /* FirebaseStorage */,
+			);
 			productName = Hakawy;
 			productReference = D69901582AE987DB00F3C29B /* Hakawy.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +232,9 @@
 				Base,
 			);
 			mainGroup = D699014F2AE987DB00F3C29B;
+			packageReferences = (
+				D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = D69901592AE987DB00F3C29B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -126,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D69901682AE987DC00F3C29B /* LaunchScreen.storyboard in Resources */,
+				D695CBC62AE98EDA007FB49E /* GoogleService-Info.plist in Resources */,
 				D69901652AE987DC00F3C29B /* Assets.xcassets in Resources */,
 				D69901632AE987DB00F3C29B /* Main.storyboard in Resources */,
 			);
@@ -133,12 +258,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		637AEEA3D3A58AB59384E4DA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hakawy/Pods-Hakawy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hakawy/Pods-Hakawy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hakawy/Pods-Hakawy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD611821145BC221663311B5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hakawy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D69901542AE987DB00F3C29B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D69901602AE987DB00F3C29B /* ViewController.swift in Sources */,
+				D66713732AEAFAC700952BF9 /* FirebaseCollectionRef.swift in Sources */,
+				D667136F2AEAF84300952BF9 /* User.swift in Sources */,
+				D69901602AE987DB00F3C29B /* LoginViewController.swift in Sources */,
+				D66713752AEAFFE500952BF9 /* FirebaseUserListener.swift in Sources */,
+				D667137A2AEC7FE900952BF9 /* SettingsTableViewController.swift in Sources */,
+				D667137E2AEF22B400952BF9 /* EditProfileTableViewController.swift in Sources */,
+				D66713772AEB05FC00952BF9 /* Constants.swift in Sources */,
 				D699015C2AE987DB00F3C29B /* AppDelegate.swift in Sources */,
 				D699015E2AE987DB00F3C29B /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +455,7 @@
 		};
 		D699016D2AE987DC00F3C29B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0168DE921C7632F90D7AEDF4 /* Pods-Hakawy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -293,8 +467,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +484,7 @@
 		};
 		D699016E2AE987DC00F3C29B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51AB77106826991BE7BE593A /* Pods-Hakawy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -321,8 +496,8 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +533,60 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D69901702AE9888200F3C29B /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		D69901722AE9888200F3C29B /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		D69901742AE9888200F3C29B /* FirebaseCrashlytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCrashlytics;
+		};
+		D69901762AE9888200F3C29B /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		D69901782AE9888200F3C29B /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		D699017A2AE9888200F3C29B /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		D699017C2AE9888200F3C29B /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		D699017E2AE9888200F3C29B /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D699016F2AE9888200F3C29B /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D69901502AE987DB00F3C29B /* Project object */;
 }
